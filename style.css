@@ -134,13 +134,3 @@ p {
 #lab_4:hover {
     text-decoration: underline;
 }
-
-
-#p_land {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 200px;
-    font-size: 200px;
-    text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.7);
-}
