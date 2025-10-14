@@ -1,5 +1,5 @@
 #img_1 {
-    height: 635px;
+    height: 610px;
     width: 450px;
     
 }
@@ -18,13 +18,17 @@ p {
 #div_1 {
     background-color: rgb(238, 236, 236); 
     width: 1370px; 
-    height: 635px;
+    height: 610px;
+    float: left;
 }
 
 
-#div_2 {
-    margin-left: 65px;
-     margin-top: 180px;
+#div_12 {
+    float: right;
+    margin-right: 450px;
+
+
+     margin-top: 140px;
 }
 
 
