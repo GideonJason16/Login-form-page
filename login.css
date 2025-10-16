@@ -1,19 +1,23 @@
 #body {
     font-family: times new roman;
+
 }
 
 
 #page_image {
-    height: 610px;
+    height: 100vh;
     width: 450px;
     
 }
 
 
-#div_image {
+#image_box {
     background-color: rgb(238, 236, 236); 
-    width: 1370px; 
-    height: 610px;
+    width: 100vw; 
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
     float: left;
 }
 
@@ -27,21 +31,21 @@
 }
 
 
-#admin_txt {
+#administration_txt {
     font-weight: bold;
     font-size: 40px; 
     margin-bottom: 2px; 
 }
 
 
-#log_txt {
+#login_txt {
     color: rgb(46, 46, 46); 
     font-size: 13px; 
     margin-bottom: 10px;
 }
 
 
-#lab_username {
+#label_username {
     margin-bottom: 0px; 
     color: rgb(46, 46, 46); 
     font-size: 13px;
@@ -75,21 +79,21 @@
     background-color: #eefafa;
 }
 
-#lab_password {
+#label_password {
     margin-bottom: 0px; 
     color: rgb(46, 46, 46); 
     font-size: 13px;
 }
 
 
-#lab_select {
+#language_selection_label {
     margin-bottom: 0px; 
     color: rgb(46, 46, 46); 
     font-size: 13px;
 }
 
 
-#log_select {
+#language_selection_box {
     margin-bottom: 10px; 
     height:30px; 
     font-size: 13px; 
@@ -99,12 +103,12 @@
     border-style: solid; 
     border-radius: 3px; 
     border-color: black; 
-    width: 390px; 
+    width: 403px; 
     background-color: white;
 }
 
 
-#log_button {
+#login_button {
     margin-bottom: 0px; 
     padding-right: 10px; 
     height:30px; 
@@ -114,10 +118,11 @@
     color: white; 
     background-color: rgb(42, 42, 148); 
     font-size: 13px;
+    cursor: pointer;
 }
 
 
-#lab_forgot_pass {
+#label_forgot_password {
     color: rgb(46, 46, 46); 
     font-size: 13px; 
     margin-top: 0px;
@@ -126,6 +131,6 @@
     }
 
 
-#lab_forgot_pass:hover {
+#label_forgot_password:hover {
     text-decoration: underline;
 }
