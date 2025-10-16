@@ -1,21 +1,16 @@
-#img_1 {
+#body {
+    font-family: times new roman;
+}
+
+
+#page_image {
     height: 610px;
     width: 450px;
     
 }
 
-p {
-    margin-top: 0;
-    margin-bottom: 0;
-} 
 
-.grey_texts {
-    color: green;
-    
-}
-
-
-#div_1 {
+#div_image {
     background-color: rgb(238, 236, 236); 
     width: 1370px; 
     height: 610px;
@@ -23,7 +18,7 @@ p {
 }
 
 
-#div_12 {
+#login_section {
     float: right;
     margin-right: 450px;
 
@@ -32,28 +27,28 @@ p {
 }
 
 
-#p_1 {
+#admin_txt {
     font-weight: bold;
     font-size: 40px; 
     margin-bottom: 2px; 
 }
 
 
-#p_2 {
+#log_txt {
     color: rgb(46, 46, 46); 
     font-size: 13px; 
     margin-bottom: 10px;
 }
 
 
-#lab_1 {
+#lab_username {
     margin-bottom: 0px; 
     color: rgb(46, 46, 46); 
     font-size: 13px;
 }
 
 
-#Username {
+#username {
     margin-bottom: 10px; 
     height: 40px; 
     padding-left: 8px; 
@@ -67,7 +62,7 @@ p {
 }
 
 
-#Password {
+#password {
     margin-bottom: 10px; 
     height: 40px; 
     padding-left: 8px; 
@@ -80,21 +75,21 @@ p {
     background-color: #eefafa;
 }
 
-#lab_2 {
+#lab_password {
     margin-bottom: 0px; 
     color: rgb(46, 46, 46); 
     font-size: 13px;
 }
 
 
-#lab_3 {
+#lab_select {
     margin-bottom: 0px; 
     color: rgb(46, 46, 46); 
     font-size: 13px;
 }
 
 
-#sel_1 {
+#log_select {
     margin-bottom: 10px; 
     height:30px; 
     font-size: 13px; 
@@ -109,7 +104,7 @@ p {
 }
 
 
-#log_1 {
+#log_button {
     margin-bottom: 0px; 
     padding-right: 10px; 
     height:30px; 
@@ -122,7 +117,7 @@ p {
 }
 
 
-#lab_4 {
+#lab_forgot_pass {
     color: rgb(46, 46, 46); 
     font-size: 13px; 
     margin-top: 0px;
@@ -131,6 +126,6 @@ p {
     }
 
 
-#lab_4:hover {
+#lab_forgot_pass:hover {
     text-decoration: underline;
 }
