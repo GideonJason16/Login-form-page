@@ -172,7 +172,7 @@
     }
 
     #login_section{
-    margin-left: 15vw; 
+    margin-left: 10vw; 
     justify-content: center;
     align-items: center;
     margin-top: 8px;
@@ -204,15 +204,15 @@
     #username {
         display: block;
         margin-bottom: 7px; 
-        height: 5.5vw;  
         padding-left: 8px; 
         color:rgb(46, 46, 46);  
         border-width: 2px; 
         border-style: solid;     
         border-radius: 3px; 
-        border-color: black; 
-        width: 75vw; 
-        font-size: clamp(12px, 1vw, 15px); 
+        border-color: black;
+        height: 6.5vw;   
+        width: 80vw; 
+        font-size: clamp(12px, 3vw, 25px); 
         background-color: #eefafa;
     }
 
@@ -226,15 +226,15 @@
     #password {
         display: block;
         margin-bottom: 7px; 
-        height: 4.5vw; 
         padding-left: 8px; 
         color:rgb(46, 46, 46);  
         border-width: 2px; 
         border-style: solid; 
         border-radius: 3px; 
         border-color: black; 
-        width: 75vw;
-        font-size: clamp(12px, 1vw, 15px); 
+        height: 6.5vw;   
+        width: 80vw; 
+        font-size: clamp(12px, 3vw, 25px); 
         background-color: #eefafa;
     }
 
@@ -247,15 +247,15 @@
 
     #language_selection_box {
         display: block;
-        margin-bottom: 7px; 
-        height: 4.5vh; 
+        margin-bottom: 12px; 
+        height: 5.5vh; 
         padding-left: 8px; 
         color: rgb(95, 95, 95);  
         border-width: 0.5px; 
         border-style: solid; 
         border-radius: 3px; 
         border-color: black; 
-        width: 78vw;
+        width: 83vw;
         font-size: clamp(12px, 1vw, 15px); 
         background-color: white;
     }
@@ -264,7 +264,7 @@
         display: block;
         margin-bottom: 0px; 
         padding-right: 10px; 
-        height: clamp(20px, 2.2vw, 30px); 
+        height: clamp(20px, 5.2vh, 40px); 
         border: none; 
         border-radius: 3px; 
         margin-bottom: 7px; 
